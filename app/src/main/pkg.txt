@@ -1,0 +1,97 @@
+
+
+| b2c/davesvn/thshq_hxmonitor                              | b2c-服务端                         |        0 |
+| b2c/hqrelease/                                           | b2c-服务端                         |        0 |
+| b2c/hqsend/                                              | b2c-服务端                         |        0 |
+| b2c/opsdev/elk                                           | b2c-服务端                         |        0 |
+| b2c/spserver/                                            | b2c-服务端                         |        0 |
+| b2c/hqserver/hqserver_calc/hqserver_upgrade_history      | b2c-服务端                         |        0 |
+| b2c/hqsend/                                              | b2c-服务端                         |        0 |
+| b2c/hqsend/thshq_hqmonitor                               | b2c-服务端                         |        0 |
+| b2c/hevosvn                                              | b2c-服务端                         |        0 |
+| b2c/hqsend                                               | b2c-服务端                         |        0 |
+| monitor/hqmonitor                                        | b2c-服务端                         |        0 |
+| 1                                                        | b2c-服务端                         |        0 |
+| swindxstock                                              | b2c-服务端                         |        0 |
+| sznsel2min                                               | b2c-服务端                         |        0 |
+
+x？| b2c/finance/                                             | b2c-服务端                         |        0 |
+x？| b2c/davesvn                                              | b2c-服务端                         |        0 |
+x？| b2c/davesvn/                                             | b2c-服务端                         |        0 |
+x？| b2c/finance                                              | b2c-服务端                         |        0 |
+x？| dad                                                      | b2c-服务端                         |        0 |
+x？| finance/                                                 | b2c-服务端                         |        0 |
+
+&| iwencai                                                  | i问财开发部                        |        0 |
+| aaa                                                      | i问财开发部                        |        0 |
+&| robot/                                                   | i问财开发部                        |        0 |
+| http://10.0.35.205/iwencai/web/project/web_elasticsearch | i问财开发部                        |        0 |
+
+| arsenal/arsenal-pilot/                                   | 中台开发部           -              |        0 |
+| arsenal/arsenal-web/                                     | 中台开发部
+
+| auth/auth_api-gateway                                    | 认证中心开发          -张燚             |        0 |
+| auth/auth_api_authwww                                    | 认证中心开发
+
+| b2b/trade/account/frontend/website                       | 账户部门-开发组  -辛增峰                  |        0 |
+| b2b_xcs/b2b/trade/test/                                  | 账户部门-开发组                    |        0 |
+
+| znkf/                                                    | B2B智能客服开发部 -李勇                 |        0 |
+| znkf/callout                                             | B2B智能客服开发部                  |        0 |
+
+| zyysvr                                                   | 自运营交易服务端开发     辛增峰          |        0 |
+| zyysvr/                                                  | 自运营交易服务端开发               |        0 |
+
+| b2b/quicktrade                                           | B2B快速柜台项目组   -               |        0 |
+| b2c/hqsend/thshq_hqmonitor                               | 券商开发部         -               |        0 |
+
+| http://10.0.4.73/chenwu/cms-service.git                  | 网站开发组                         |        0 |
+| web/servers                                              | 网站开发组    -  张珊  网站                   |        0 |
+
+| b2c/hevosvn                                              | b2c-新版用户端                     |        0 |
+| b2c/hxsmartsvn                                           | b2c-免费客户端        -郑剑芳             |        0 |
+| ops/pub                                                  | b2c-运维开发                       |        0 |
+
+| fund/                                                    | 基金开发组         -吴方国                |        0 |
+@| mobile/                                                  | 手机主站                           |        0 |
+| mobile_web/mobileweb_test                                | 手机web        -贺晓                    |        0 |
+
+| ops/idc/                                                 | 机房开发小组        -管鹏               |        0 |
+| ops/pub/                                                 | b2c-运维开发                       |        0 |
+| ops/pub/   -莫佳勇                                        | b2c-服务端                         |        0 |
+| speechimage/system/                                      | 语音图像-语音系统开发组    -徐欣康        |        0 |
+
+| vanish/                                                  | 安全通信开发部            -王学飞         |        0 |
+
+
+
+-| web/b2c                                                  | b2c-WEB用户端                      |        0 |
+-| web/gitlab_puppet/web/b2c_web                            | b2c-WEB用户端                      |        0 |
+-| web/gitlab_puppet/web/b2c_web_ai                         | b2c-WEB用户端                      |        0 |
+-| web/gitlab_puppet/web/b2c_web_basic                      | b2c-WEB用户端                      |        0 |
+-| web/gitlab_puppet/web/b2c_web_client                     | b2c-WEB用户端                      |        0 |
+-| web/gitlab_puppet/web/b2c_web_l2                         | b2c-WEB用户端                      |        0 |
+-| web/gitlab_puppet/web/b2c_web_open                       | b2c-WEB用户端                      |        0 |
+-| web/gitlab_puppet/web/b2c_web_vim                        | b2c-WEB用户端                      |        0 |
+-| web/gitlab_puppet/web/mncg                               | b2c-WEB用户端                      |        0 |
+
+| git@10.0.4.73/b2c-web/vis.git                            | b2c-WEB用户端                      |        1 |
+| http://10.0.4.73/b2c-web-ai/idxvisual.git                | b2c-WEB用户端                      |        1 |
+| http://10.0.4.73/b2c-web-ai/reference.git                | b2c-WEB用户端                      |        1 |
+| http://10.0.4.73/b2c-web/award.git                       | b2c-WEB用户端                      |        1 |
+| http://10.0.4.73/b2c-web/diary.git                       | b2c-WEB用户端                      |        1 |
+| http://10.0.4.73/b2c-web/parsemarket.git                 | b2c-WEB用户端                      |        1 |
+| http://10.0.4.73/mncg/cgiwt.git                          | b2c-WEB用户端                      |        1 |
+| http://10.0.7.205/web/product/activity                   | b2c-WEB用户端                      |        1 |
+| http://10.0.7.205/web/product/cate                       | b2c-WEB用户端                      |        1 |
+| http://10.0.7.205/web/product/cspp                       | b2c-WEB用户端                      |        1 |
+| http://10.0.7.205/web/product/dbconfig                   | b2c-WEB用户端                      |        1 |
+| http://10.0.7.205/web/product/help                       | b2c-WEB用户端                      |        1 |
+| http://10.0.7.205/web/product/mall                       | b2c-WEB用户端                      |        1 |
+| http://10.0.7.205/web/product/pos                        | b2c-WEB用户端                      |        1 |
+| http://10.0.7.205/web/product/qwaserver                  | b2c-WEB用户端                      |        1 |
+| http://10.0.7.205/web/product/sp                         | b2c-WEB用户端                      |        1 |
+| http://10.0.7.205/web/product/task                       | b2c-WEB用户端                      |        1 |
+| http://10.0.7.205/web/product/vote                       | b2c-WEB用户端                      |        1 |
+| http://10.0.7.205/web/product/xiadan                     | b2c-WEB用户端                      |        1 |
+| http://10.0.7.205/web/product/yjs                        | b2c-WEB用户端                      |        1 |

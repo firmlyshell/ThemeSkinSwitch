@@ -1,0 +1,99 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+
+    signingConfigs {
+        config {
+            keyAlias 'fengjun'
+            keyPassword 'fengjun'
+            storeFile file('keystore.key')
+            storePassword 'fengjun'
+        }
+    }
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+
+        debug() {
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+
+def skinName = "BlackFantacy.skin"
+final def TARGET_SKIN_DIR = '../skin-package/'
+
+gradle.projectsEvaluated {
+    assembleRelease.doLast {
+        println("=====================assembleRelease.doLast.begin.=========================")
+
+        def dir = new File(TARGET_SKIN_DIR)
+        if (!dir.exists()) {
+            dir.mkdirs()
+        }
+
+        def f = new File(TARGET_SKIN_DIR + skinName)
+        if (f.exists()) {
+            f.delete()
+        }
+
+        copy {
+            from('build/outputs/apk/release/')
+            into(TARGET_SKIN_DIR)
+            include '*.apk'
+            exclude '**/*-unsigned.apk'
+            rename('ThemeSkinNight-release.apk', skinName)
+        }
+
+        println("=====================assembleRelease.doLast success.=========================")
+    }
+
+    assembleDebug.doLast {
+        println("=====================assembleDebug.doLast.begin.=========================")
+
+        def dir = new File(TARGET_SKIN_DIR)
+        if (!dir.exists()) {
+            dir.mkdirs()
+        }
+
+        def f = new File(TARGET_SKIN_DIR + skinName)
+        if (f.exists()) {
+            f.delete()
+        }
+
+        copy {
+            from('build/outputs/apk/debug/')
+            into(TARGET_SKIN_DIR)
+            include '*.apk'
+            exclude '**/*-unsigned.apk'
+            rename('ThemeSkinNight-debug.apk', skinName)
+        }
+
+        println("=====================assembleDebug.doLast success.=========================")
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
